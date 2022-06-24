@@ -1,0 +1,1464 @@
+#encabezado {
+    display: flex;
+    
+    
+   
+}
+
+
+
+
+
+#encabezado .encabezado__menu ul {
+    list-style: none;
+    display: flex;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    
+   
+}
+#encabezado .encabezado__menu ul li a {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#encabezado .encabezado__menu {
+    width: 100%;
+    
+}
+
+#encabezado .encabezado__menu ul li a {
+    text-decoration: none;
+    margin: 70px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color:black;
+    transition: background-color 0.5s, color 0.5s;
+    
+}
+#encabezado .encabezado__menu ul li a:hover {
+    background-color: black;
+    color: white;
+    
+    
+}
+
+
+#encabezado .encabezado__logo {
+    width: 70px; 
+    height: 70px;
+    margin-left: 100px;
+}
+#encabezado .encabezado__buscador--size {
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+
+}
+#encabezado .encabezado__boton input {
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 5px; 
+    
+}
+#intro .intro__titulo {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    
+    background-color: black;
+    color: white;
+
+
+}
+#intro .intro__titulo h1{
+    margin-left: 30px;
+    margin-bottom: 100px;
+    background: linear-gradient(to right, black 70%,white );
+}
+#intro .intro__imagenes {
+    display: flex;
+    
+}
+#ultraboost .ultraboost__titulo--color {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    margin-top: 100px;
+    background-color: black;
+    color:white;
+    background: linear-gradient(to right, black 70%,white );
+}
+
+
+
+#ultraboost .ultraboost__titulo--color h3 {
+    margin-left: 30px;
+}
+#ultraboost .ultraboost__imagenYTexto {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 190px;
+    
+}
+#ultraboost .ultraboost__imagenYTexto img  {
+  
+    width: 400px;
+    height:300px;
+    object-fit:scale-down;
+    
+
+}
+#ultraboost .ultraboost__imagenYTexto p {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin-left: 140px;
+    margin-right: 90px;
+    margin-top: 70px;
+}
+
+#otrosModelos .otrosModelos__titulo {
+    font-size: 45px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(to right, black 70%,white );
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+}
+#otrosModelos .otrosModelos__titulo h3 {
+    margin-left: 30px;
+}
+#otrosModelos .otrosModelos__fotos {
+    display: grid;
+    margin-top: 150px;
+    grid-template-columns:450px 450px ;
+    grid-template-rows:250px 250px ;
+    margin-left: 380px ;
+    grid-gap: 150px;
+    
+    
+
+}
+
+
+#otrosModelos .otrosModelos__fotos--botines {
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    
+}
+#otrosModelos .otrosModelos__fotos--botines h3 {
+    margin-right: 10px;
+}
+#otrosModelos .otrosModelos__fotos--basquet 
+{
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+#otrosModelos .otrosModelos__fotos--basquet h3 {
+    margin-right:10px ;
+}
+
+
+#otrosModelos .otrosModelos__fotos--treking {
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+#otrosModelos .otrosModelos__fotos--treking h3 {
+    margin-right: 10px;
+}
+    
+#otrosModelos .otrosModelos__fotos--ojotas {
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+
+}
+#otrosModelos .otrosModelos__fotos--ojotas h3 {
+    margin-right: 10px;
+}
+
+
+
+/**   MEDIAQUERIES INDEX  **/
+
+
+
+
+@media (max-width:600px) {
+    #encabezado {
+    
+        
+        display: flex;
+        background-color: black;
+        
+        }
+    #encabezado .encabezado__menu ul li {
+        display: flex;
+        }
+    #encabezado .encabezado__menu ul li a
+     {
+        margin: 3px;
+        font-size: 20px;
+        color: white;
+        }
+    #encabezado .encabezado__boton input
+    {
+        margin-left: 2px;
+        margin-right: 5px;
+        height: 25px;
+        width: 20px;
+    
+    }
+    
+    #encabezado .encabezado__buscador input {
+        margin-left: 5px;
+        margin-right: 2px;
+        height: 25px;
+        width: 80px;
+    }
+
+    #encabezado .encabezado__logo {
+        display: none;
+        
+
+    }
+
+    #intro .intro__titulo {
+        font-size: 30px;
+    }
+
+    #ultraboost .ultraboost__titulo {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Lobster', cursive;
+        font-family: 'Oswald', sans-serif;
+        
+    }
+    #ultraboost .ultraboost__imagenYTexto img {
+    
+        height:100px;
+        width: 100px;
+    }
+    #ultraboost .ultraboost__imagenYTexto {
+
+        display: flex;
+        margin-top:30px;
+        justify-content:center;
+        margin-right: 100px;
+    }
+    #ultraboost .ultraboost__imagenYTexto--desktop {
+        display: none;
+        
+    }
+    #ultraboost .ultraboost__imagenYTexto p {
+        font-size:25px;
+        margin-top: 10px;
+        
+        
+    
+    }
+    #otrosModelos .otrosModelos__fotos {
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-rows: repeat(4,200px);         
+        justify-content: start;
+                
+    }
+    #otrosModelos .otrosModelos__fotos--basquet p {
+        display: none;
+        
+    }
+    #otrosModelos .otrosModelos__fotos--botines p {
+        display: none;
+    }
+    #otrosModelos .otrosModelos__fotos--treking p {
+        display: none;
+    }
+    #otrosModelos .otrosModelos__fotos--ojotas p {
+        display: none;
+    }
+    #otrosModelos {
+        overflow: hidden;
+        
+    }
+ 
+    
+    #ultraboost {
+        overflow: hidden;
+    }
+    #intro {
+        overflow: hidden;
+    }
+    #encabezado {
+        overflow: hidden;
+    }
+
+
+
+}
+
+
+
+
+
+@media (min-width:600px) {
+    #ultraboost .ultraboost__imagenYTexto--mobile {
+        display:none;
+    }
+}
+
+/**MEDIAQUERIES CATALOGO**/
+
+@media (max-width:600px) {
+   
+    .hombre {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .mujer{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .niño {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    
+    
+    .mujer .promos {
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: repeat(4,200px);
+    }
+
+    .tituloPromos h3 {
+        display: none;
+    }
+    
+    .tituloPromosMobile  {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin-bottom: 100px;
+    background-color: black;
+    color: white;
+    }
+    
+
+
+
+
+
+
+    
+}
+/**MEDIAQUERIES E-SHOPPING**/
+
+
+@media (max-width:600px) {
+    .registro .registro__contenedor {
+        overflow-x: hidden;
+        display: grid;
+        grid-template-columns: 100px;
+        grid-template-rows: repeat(6,80px);
+    
+    }
+    .tituloEshopping {
+        font-size: 20px;
+    }
+    .subtituloRegistro  {
+        font-size: 20px;
+    }
+   
+
+
+
+}
+
+/**MEDIAQUERIES CONTACTO**/
+
+@media (max-width:600px) {
+    #contacto .contacto {
+        overflow-x: hidden;
+        display: grid;
+        grid-row-gap: 10px;
+        grid-template-columns: 50px;
+        grid-template-rows: repeat(6,70px);
+        
+        
+        
+        
+    }
+}
+
+/**MEDIA QUERIES TIENDAS**/
+@media (max-width:600px) {
+    #tiendas .tiendasOficiales  {
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-rows: repeat(4, 400px);
+        overflow-x: hidden;
+        grid-row-gap: 50px;
+        
+    
+    
+    
+    }
+    #tiendas .otrasTiendas {
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-rows: repeat(4, 400px);
+        overflow-x: hidden;
+    
+    }
+    #tiendas .otrasTiendas__dino {
+        justify-self: center;
+    }
+
+}
+
+/** ESTILO CATALOGO**/
+
+.hombre .hombre__calzadoFotos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-seri
+}
+.hombre__calzadoFotos p {
+    margin-top: 10px;
+}
+.hombre__ropaFotos--precioRopa1 {
+    transition:all 0.5s;
+}
+.hombre__ropaFotos--precioRopa1:hover {
+    background-color: black;
+    color:white;
+}
+.hombre__ropaFotos--precioRopa2 {
+    transition:all 0.5s;
+}
+.hombre__ropaFotos--precioRopa2:hover {
+    background-color: black;
+    color:white;
+}
+.hombre__ropaFotos--precioRopa3 {
+    transition:all 0.5s;
+}
+.hombre__ropaFotos--precioRopa3:hover {
+    background-color: black;
+    color:white;
+}
+.hombre__ropaFotos--precioRopa4 {
+    transition:all 0.5s;
+}
+.hombre__ropaFotos--precioRopa4:hover {
+    background-color: black;
+    color:white;
+}
+.hombre__calzadoFotos--precioCalzado1 {
+    transition:all 0.5s;
+}
+.hombre__calzadoFotos--precioCalzado1:hover {
+    background-color: black;
+    color:white;
+}
+.hombre__calzadoFotos--precioCalzado2 {
+    transition:all 0.5s;
+}
+.hombre__calzadoFotos--precioCalzado2:hover {
+    background-color: black;
+    color:white;
+}
+.hombre__calzadoFotos--precioCalzado3 {
+    transition:all 0.5s;
+}
+.hombre__calzadoFotos--precioCalzado3:hover {
+    background-color: black;
+    color:white;
+}
+.hombre__calzadoFotos--precioCalzado4 {
+    transition:all 0.5s;
+}
+.hombre__calzadoFotos--precioCalzado4:hover {
+    background-color: black;
+    color:white;
+}
+.hombre__accesoriosFotos--precioAccesorios1 {
+    transition:all 0.5s;
+
+}
+.hombre__accesoriosFotos--precioAccesorios1:hover {
+    background-color: black;
+    color:white;
+}
+.hombre__accesoriosFotos--precioAccesorios2 {
+    transition:all 0.5s;
+
+}
+.hombre__accesoriosFotos--precioAccesorios2:hover {
+    background-color: black;
+    color:white;
+}
+.hombre__accesoriosFotos--precioAccesorios3{
+    transition:all 0.5s;
+
+}
+.hombre__accesoriosFotos--precioAccesorios3:hover {
+    background-color: black;
+    color:white;
+}
+.hombre__accesoriosFotos--precioAccesorios4 {
+    transition:all 0.5s;
+
+}
+.hombre__accesoriosFotos--precioAccesorios4:hover {
+    background-color: black;
+    color:white;
+}
+.hombre__accesoriosFotos--precioAccesorios1 {
+    transition:all 0.5s;
+
+}
+.hombre__accesoriosFotos--precioAccesorios1:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__calzadoFotos--precioCalzado1 {
+    transition:all 0.5s;
+}
+.mujer__calzadoFotos--precioCalzado1:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__calzadoFotos--precioCalzado2 {
+    transition:all 0.5s;
+}
+.mujer__calzadoFotos--precioCalzado2:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__calzadoFotos--precioCalzado3 {
+    transition:all 0.5s;
+}
+.mujer__calzadoFotos--precioCalzado3:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__calzadoFotos--precioCalzado4 {
+    transition:all 0.5s;
+}
+.mujer__calzadoFotos--precioCalzado4:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__ropaFotos--precioRopa1 {
+    transition:all 0.5s;
+}
+.mujer__ropaFotos--precioRopa1:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__ropaFotos--precioRopa2 {
+    transition:all 0.5s;
+}
+.mujer__ropaFotos--precioRopa2:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__ropaFotos--precioRopa2 {
+    transition:all 0.5s;
+}
+.mujer__ropaFotos--precioRopa2:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__ropaFotos--precioRopa3 {
+    transition:all 0.5s;
+}
+.mujer__ropaFotos--precioRopa3:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__ropaFotos--precioRopa4 {
+    transition:all 0.5s;
+}
+.mujer__ropaFotos--precioRopa4:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__accesoriosFotos--precioAccesorio1 {
+    transition:all 0.5s;
+}
+.mujer__accesoriosFotos--precioAccesorio1:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__accesoriosFotos--precioAccesorio2 {
+    transition:all 0.5s;
+}
+.mujer__accesoriosFotos--precioAccesorio2:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__accesoriosFotos--precioAccesorio3 {
+    transition:all 0.5s;
+}
+.mujer__accesoriosFotos--precioAccesorio3:hover {
+    background-color: black;
+    color:white;
+}
+.mujer__accesoriosFotos--precioAccesorio4 {
+    transition:all 0.5s;
+}
+.mujer__accesoriosFotos--precioAccesorio4:hover {
+    background-color: black;
+    color:white;
+}
+.niño__calzadoFotos--precioCalzado1 {
+    transition:all 0.5s;
+}
+.niño__calzadoFotos--precioCalzado1:hover {
+    background-color: black;
+    color:white;
+}
+.niño__calzadoFotos--precioCalzado2 {
+    transition:all 0.5s;
+}
+.niño__calzadoFotos--precioCalzado2:hover {
+    background-color: black;
+    color:white;
+}
+.niño__calzadoFotos--precioCalzado3 {
+    transition:all 0.5s;
+}
+.niño__calzadoFotos--precioCalzado3:hover {
+    background-color: black;
+    color:white;
+}
+.niño__calzadoFotos--precioCalzado4 {
+    transition:all 0.5s;
+}
+.niño__calzadoFotos--precioCalzado4:hover {
+    background-color: black;
+    color:white;
+}
+.niño__ropaFotos--precioRopa1 {
+    transition:all 0.5s;
+}
+.niño__ropaFotos--precioRopa1:hover {
+    background-color: black;
+    color:white;
+}
+.niño__ropaFotos--precioRopa2 {
+    transition:all 0.5s;
+}
+.niño__ropaFotos--precioRopa2:hover {
+    background-color: black;
+    color:white;
+}
+.niño__ropaFotos--precioRopa3 {
+    transition:all 0.5s;
+}
+.niño__ropaFotos--precioRopa3:hover {
+    background-color: black;
+    color:white;
+}
+.niño__ropaFotos--precioRopa4 {
+    transition:all 0.5s;
+}
+.niño__ropaFotos--precioRopa4:hover {
+    background-color: black;
+    color:white;
+}
+.niño__accesoriosFotos--precioAccesorios1{
+    transition:all 0.5s;
+}
+.niño__accesoriosFotos--precioAccesorios1:hover {
+    background-color: black;
+    color:white;
+}.niño__accesoriosFotos--precioAccesorios2{
+    transition:all 0.5s;
+}
+.niño__accesoriosFotos--precioAccesorios2:hover {
+    background-color: black;
+    color:white;
+}
+.niño__accesoriosFotos--precioAccesorios3{
+    transition:all 0.5s;
+}
+.niño__accesoriosFotos--precioAccesorios3:hover {
+    background-color: black;
+    color:white;
+}.niño__accesoriosFotos--precioAccesorios4{
+    transition:all 0.5s;
+}
+.niño__accesoriosFotos--precioAccesorios4:hover {
+    background-color: black;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hombre .hombre__ropaFotos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-seri
+}
+.hombre__ropaFotos p {
+    margin-top: 10px;
+}
+
+.hombre .hombre__accesoriosFotos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-seri
+    }
+.hombre__accesoriosFotos p {
+    margin-top: 10px;
+}
+
+.mujer .mujer__calzadoFotos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-seri
+}
+.mujer__calzadoFotos p{
+    margin-top: 10px;
+}
+.mujer .mujer__ropaFotos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-seri
+}
+.mujer__ropaFotos p {
+    margin-top: 10px;
+}
+.mujer .mujer__accesoriosFotos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-seri
+} 
+.mujer__accesoriosFotos p {
+    margin-top: 10px;
+}
+.niño .niño__calzadoFotos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-seri
+}
+.niño__calzadoFotos p {
+    margin-top: 10px;
+}
+.niño .niño__ropaFotos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;    
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.niño__ropaFotos p {
+    margin-top: 10px;
+}
+
+
+
+.niño .niño__accesoriosFotos {
+    display: flex; 
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.niño .niño__accesoriosFotos p {
+    margin-top: 10px;
+}
+.titulo {
+    font-size: 45px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    margin-top:50px ;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.subtituloHombre {
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    background: linear-gradient(to right, black 70%,white );
+
+    
+    margin-bottom: 100px;
+
+
+}
+.subtituloHombre h3 {
+    margin-left: 50px;
+}
+.subtituloMujer {
+    background-color: black;
+    color: white;
+    background: linear-gradient(to right, black 70%,white );
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom:100px ;
+}
+.subtituloMujer h3 {
+    margin-left: 50px;
+}
+
+.subtituloNiño {
+    background-color: black;
+    color: white;
+    background: linear-gradient(to right, black 70%,white );
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom:100px ;
+}
+.subtituloNiño h3 {
+    margin-left: 50px;
+}
+.hombre__tituloCalzado {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.hombre__tituloRopa {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.hombre__tituloAccesorios {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.mujer__tituloCalzado {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+
+}
+.mujer__tituloRopa {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+
+}
+.mujer__tituloAccesorios {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.niño__tituloCalzado {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.niño__tituloRopa {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.niño__tituloAccesorios {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.promos {
+    display: grid;
+    grid-template-rows:repeat(2,250px) ;
+    grid-template-columns:repeat(3, 250px) ;
+    grid-gap:150px ;
+    justify-content: center;
+}
+.tituloPromosMobile {
+    display: none;
+}
+.tituloPromos {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin-bottom: 100px;
+    background-color: black;
+    color: white;
+    background: linear-gradient(to right, black 70%,white );
+}
+.tituloPromos h3 {
+    margin-left: 50px;
+}
+.promos__40 h3 {
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.promos__breaknet h3 {
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.promos__grandcourt h3 {
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.promos__lisa {
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.promos__lite {
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.promos__advantage {
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+/**ESTILO TIENDAS**/
+
+.tituloTiendas {
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.subtituloTiendas {
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color:white;
+    margin-bottom: 100px;
+    background: linear-gradient(to right, black 70%,white );
+}
+.subtituloTiendas h3 {
+    margin-left: 50px;
+}
+.subtituloOtrasTiendas {
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color:white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: linear-gradient(to right, black 70%,white );
+}
+.subtituloOtrasTiendas h3{
+    margin-left: 50px;
+}
+
+.tiendasOficiales {
+    display: grid;
+    grid-template-columns:repeat(2, 500px) ;
+    grid-template-rows: repeat(2,500px);
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 230px;
+    grid-row-gap: 200px;
+    
+}
+.tiendasOficiales div {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    
+    align-items: center;
+    
+    
+    
+}
+.tiendasOficiales__altacba {
+    background-color: black;
+    color: white;
+    
+    align-self: stretch;
+    justify-content:center ;
+    transition: 1s;
+}
+
+
+.tiendasOficiales__altacba:hover {
+    background: linear-gradient(to bottom,white , black ,white );
+}
+.tiendasOficiales__duarte {
+    background-color: black;
+    color: white;
+    justify-content:center;
+    align-self: stretch;
+    transition: 1s;
+}
+.tiendasOficiales__duarte:hover {
+    background: linear-gradient(to bottom,white , black ,white );
+}
+.tiendasOficiales__store {
+    background-color: black;
+    color: white;
+    justify-content:center;
+    align-self: stretch;
+    transition: 1s;
+}
+.tiendasOficiales__store:hover {
+    background: linear-gradient(to bottom,white , black ,white );
+
+}
+.tiendasOficiales__tiempo {
+    background-color: black;
+    color: white;
+    justify-content:center;
+    align-self: stretch;
+    transition: 1s;
+
+}
+.tiendasOficiales__tiempo:hover {
+    background: linear-gradient(to bottom,white , black ,white );
+
+}
+
+
+
+.otrasTiendas {
+    display: grid;
+    grid-template-columns:repeat(2, 500px) ;
+    grid-template-rows: repeat(2,500px);
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 230px;
+    grid-row-gap: 200px;
+    transition: 1s;
+}
+
+
+.otrasTiendas div {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    
+    align-items: center;
+    
+    
+    
+}
+.otrasTiendas__center {
+    background-color: black;
+    color: white;
+    align-self: stretch;
+    justify-content:center ;
+    
+}
+.otrasTiendas__center:hover{
+    background: linear-gradient(to bottom,white , black ,white );
+
+}
+.otrasTiendas__libero {
+    background-color: black;
+    color: white;
+    justify-content:center;
+    align-self: stretch;
+    transition: 1s;
+}
+.otrasTiendas__libero:hover {
+    background: linear-gradient(to bottom,white , black ,white );
+}
+.otrasTiendas__onda {
+    background-color: black;
+    color: white;
+    justify-content:center;
+    align-self: stretch;
+}
+.otrasTiendas__onda:hover {
+    background: linear-gradient(to bottom,white , black ,white );
+}
+.otrasTiendas__dino {
+    background-color: black;
+    color: white;
+    justify-content:center;
+    align-self: stretch;
+}
+.otrasTiendas__dino:hover {
+    background: linear-gradient(to bottom,white , black ,white );
+
+}
+
+/**ESTILO E-SHOPPING**/
+
+.tituloEshopping {
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.subtituloRegistro {
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    background: linear-gradient(to right, black 70%,rgb(212, 92, 12) );
+    
+}
+.subtituloRegistro h3{
+    margin-left: 50px;
+}
+.registro__contenedor {
+    display: grid;
+    grid-template-columns:repeat(2,400px) ;
+    grid-template-rows: repeat(3,200px);
+    grid-column-gap: 300px;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(212, 92, 12);
+    
+}
+
+
+.registro__contenedor--nombre {
+    display: flex;
+    justify-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.registro__contenedor--apellido {
+    display: flex;
+    justify-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.registro__contenedor--documento {
+    display: flex;
+    justify-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.registro__contenedor--direccion {
+    display: flex;
+    justify-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.registro__contenedor--nacimiento {
+    display: flex;
+    justify-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.registro__contenedor--sexo {
+    display: flex;
+    justify-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+
+    
+}
+.subtituloComentario {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    background: linear-gradient(to right, black 70%,rgb(212, 92, 12) );
+}
+.subtituloComentario h3 {
+    margin-left: 50px;
+}
+.comentario__texto {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right,rgb(212, 92, 12), black,rgb(212, 92, 12) );
+}
+.comentario__imagen {
+    object-fit: cover;
+    text-align: center;
+    background-color: rgb(212, 92, 12);
+}
+
+/**ESTILO CONTACTO**/
+
+.contacto {
+    display: grid;
+    grid-template-columns:repeat(2,400px) ;
+    grid-template-rows: repeat(3,200px);
+    grid-column-gap: 300px;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(212, 92, 12);
+    
+}
+.contacto__nombreYApellido {
+    display: flex;
+    justify-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+
+}
+.contacto__localidad {
+    display: flex;
+    justify-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+
+}
+.contacto__direccion {
+    display: flex;
+    justify-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+
+}
+.contacto__sexo {
+    display: flex;
+    justify-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+
+}
+.contacto__numeroDeTelefono {
+    display: flex;
+    justify-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+
+}
+.contacto__email {
+    display: flex;
+    justify-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+
+}
+.tituloContacto {
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.subtituloContacto {
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    background: linear-gradient(to right, black 90%,rgb(212, 92, 12) );
+    
+}
+.subtituloContacto h3 {
+    margin-left: 50px;
+}
+.contactoImagen {
+    text-align: center;
+    background-color:rgb(212, 92, 12) ;
+}
+.contactoTituloFormulario {
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    background: linear-gradient(to right, black 90%,rgb(212, 92, 12) );
+}
+.contactoTituloFormulario h3{
+    margin-left: 50px;
+}
+.contactoTituloNews {
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, black 90%,rgb(212, 92, 12) );
+}
+
+.botones {
+    display: flex;
+    height: 300px;
+    background-color: rgb(212, 92, 12);
+    justify-content: center;
+    align-items: center;
+}
+.botones__botonSi {
+    text-align: center;
+    background-color:rgb(212, 92, 12);
+    width: 200px;
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.botones__botonNo {
+    text-align: center;
+    background-color:rgb(212, 92, 12);
+    width: 200px;
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
