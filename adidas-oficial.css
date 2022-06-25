@@ -67,6 +67,11 @@
     margin-left: 5px; 
     
 }
+
+
+
+
+
 #intro .intro__titulo {
     font-family: 'Dosis', sans-serif;
     font-family: 'Lobster', cursive;
@@ -197,8 +202,21 @@
 #otrosModelos .otrosModelos__fotos--ojotas h3 {
     margin-right: 10px;
 }
+.card {
+    
+    text-align: center;
+}
 
-
+#tarjetas .tarjetas {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    justify-content: space-evenly;
+    
+}
+#tarjetas .card .card-body .btn {
+    background-color: black;
+}
 
 /**   MEDIAQUERIES INDEX  **/
 
@@ -243,7 +261,14 @@
         
 
     }
-
+    #encabezado {
+        display: none;
+    }
+    
+    
+    
+    
+    
     #intro .intro__titulo {
         font-size: 30px;
     }
