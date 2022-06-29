@@ -1,4 +1,4 @@
-#encabezado {
+.encabezado {
     display: flex;
     
     
@@ -9,7 +9,7 @@
 
 
 
-#encabezado .encabezado__menu ul {
+.encabezado .encabezado__menu ul {
     list-style: none;
     display: flex;
     
@@ -18,16 +18,16 @@
     
    
 }
-#encabezado .encabezado__menu ul li a {
+.encabezado .encabezado__menu ul li a {
     flex-grow: 1;
     flex-shrink: 1;
 }
-#encabezado .encabezado__menu {
+.encabezado .encabezado__menu {
     width: 100%;
     
 }
 
-#encabezado .encabezado__menu ul li a {
+.encabezado .encabezado__menu ul li a {
     text-decoration: none;
     margin: 70px;
     font-family: 'Dosis', sans-serif;
@@ -38,7 +38,7 @@
     transition: background-color 0.5s, color 0.5s;
     
 }
-#encabezado .encabezado__menu ul li a:hover {
+.encabezado .encabezado__menu ul li a:hover {
     background-color: black;
     color: white;
     
@@ -46,12 +46,12 @@
 }
 
 
-#encabezado .encabezado__logo {
+.encabezado .encabezado__logo {
     width: 70px; 
     height: 70px;
     margin-left: 100px;
 }
-#encabezado .encabezado__buscador--size {
+.encabezado .encabezado__buscador--size {
     margin-top: 20px;
     margin-left: 200px;
     height: 30px;
@@ -60,7 +60,7 @@
     font-family: 'Oswald', sans-serif;
 
 }
-#encabezado .encabezado__boton input {
+.encabezado .encabezado__boton input {
     height: 30px;
     width: 30px;
     margin-top: 20px;
@@ -72,7 +72,7 @@
 
 
 
-#intro .intro__titulo {
+.intro .intro__titulo {
     font-family: 'Dosis', sans-serif;
     font-family: 'Lobster', cursive;
     font-family: 'Oswald', sans-serif;
@@ -83,16 +83,16 @@
 
 
 }
-#intro .intro__titulo h1{
+.intro .intro__titulo h1{
     margin-left: 30px;
     margin-bottom: 100px;
     background: linear-gradient(to right, black 70%,white );
 }
-#intro .intro__imagenes {
+.intro .intro__imagenes {
     display: flex;
     
 }
-#ultraboost .ultraboost__titulo--color {
+.ultraboost .ultraboost__titulo--color {
     font-family: 'Dosis', sans-serif;
     font-family: 'Lobster', cursive;
     font-family: 'Oswald', sans-serif;
@@ -105,16 +105,16 @@
 
 
 
-#ultraboost .ultraboost__titulo--color h3 {
+.ultraboost .ultraboost__titulo--color h3 {
     margin-left: 30px;
 }
-#ultraboost .ultraboost__imagenYTexto {
+.ultraboost .ultraboost__imagenYTexto {
     display: flex;
     margin-top: 100px;
     margin-left: 190px;
     
 }
-#ultraboost .ultraboost__imagenYTexto img  {
+.ultraboost .ultraboost__imagenYTexto img  {
   
     width: 400px;
     height:300px;
@@ -122,7 +122,7 @@
     
 
 }
-#ultraboost .ultraboost__imagenYTexto p {
+.ultraboost .ultraboost__imagenYTexto p {
     font-family: 'Dosis', sans-serif;
     font-family: 'Lobster', cursive;
     font-family: 'Oswald', sans-serif;
@@ -132,7 +132,7 @@
     margin-top: 70px;
 }
 
-#otrosModelos .otrosModelos__titulo {
+.otrosModelos .otrosModelos__titulo {
     font-size: 45px;
     font-family: 'Dosis', sans-serif;
     font-family: 'Lobster', cursive;
@@ -142,10 +142,10 @@
     background-color: black;
     color: white;
 }
-#otrosModelos .otrosModelos__titulo h3 {
+.otrosModelos .otrosModelos__titulo h3 {
     margin-left: 30px;
 }
-#otrosModelos .otrosModelos__fotos {
+.otrosModelos .otrosModelos__fotos {
     display: grid;
     margin-top: 150px;
     grid-template-columns:450px 450px ;
@@ -158,29 +158,29 @@
 }
 
 
-#otrosModelos .otrosModelos__fotos--botines {
+.otrosModelos .otrosModelos__fotos--botines {
     display: flex;
     font-family: 'Dosis', sans-serif;
     font-family: 'Lobster', cursive;
     font-family: 'Oswald', sans-serif;
     
 }
-#otrosModelos .otrosModelos__fotos--botines h3 {
+.otrosModelos .otrosModelos__fotos--botines h3 {
     margin-right: 10px;
 }
-#otrosModelos .otrosModelos__fotos--basquet 
+.otrosModelos .otrosModelos__fotos--basquet 
 {
     display: flex;
     font-family: 'Dosis', sans-serif;
     font-family: 'Lobster', cursive;
     font-family: 'Oswald', sans-serif;
 }
-#otrosModelos .otrosModelos__fotos--basquet h3 {
+.otrosModelos .otrosModelos__fotos--basquet h3 {
     margin-right:10px ;
 }
 
 
-#otrosModelos .otrosModelos__fotos--treking {
+.otrosModelos .otrosModelos__fotos--treking {
     display: flex;
     font-family: 'Dosis', sans-serif;
     font-family: 'Lobster', cursive;
@@ -188,18 +188,18 @@
     
     
 }
-#otrosModelos .otrosModelos__fotos--treking h3 {
+.otrosModelos .otrosModelos__fotos--treking h3 {
     margin-right: 10px;
 }
     
-#otrosModelos .otrosModelos__fotos--ojotas {
+.otrosModelos .otrosModelos__fotos--ojotas {
     display: flex;
     font-family: 'Dosis', sans-serif;
     font-family: 'Lobster', cursive;
     font-family: 'Oswald', sans-serif;
 
 }
-#otrosModelos .otrosModelos__fotos--ojotas h3 {
+.otrosModelos .otrosModelos__fotos--ojotas h3 {
     margin-right: 10px;
 }
 .card {
@@ -207,14 +207,33 @@
     text-align: center;
 }
 
-#tarjetas .tarjetas {
+.tarjetas .tarjetas__contenedor {
     display: flex;
     flex-direction: row;
-    margin-top: 150px;
+    margin-top: 50px;
     justify-content: space-evenly;
-    
+    height: 600px;
+    box-sizing: border-box;
+}  
+@keyframes borde-tarjetas{
+    0% {border-top-width: 0px;}
+    50% {border-top-width: 50px;}
+    100% {border-top-width:0px;}
+
+
 }
-#tarjetas .card .card-body .btn {
+.tarjetas .tarjetas__contenedor {
+    border: 3px solid black;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    padding: 50px;
+    animation-name:borde-tarjetas ;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.tarjetas .card .card-body .btn {
     background-color: black;
 }
 
@@ -224,23 +243,23 @@
 
 
 @media (max-width:600px) {
-    #encabezado {
+    .encabezado {
     
         
         display: flex;
         background-color: black;
         
         }
-    #encabezado .encabezado__menu ul li {
+    .encabezado .encabezado__menu ul li {
         display: flex;
         }
-    #encabezado .encabezado__menu ul li a
+    .encabezado .encabezado__menu ul li a
      {
         margin: 3px;
         font-size: 20px;
         color: white;
         }
-    #encabezado .encabezado__boton input
+    .encabezado .encabezado__boton input
     {
         margin-left: 2px;
         margin-right: 5px;
@@ -249,14 +268,14 @@
     
     }
     
-    #encabezado .encabezado__buscador input {
+    .encabezado .encabezado__buscador input {
         margin-left: 5px;
         margin-right: 2px;
         height: 25px;
         width: 80px;
     }
 
-    #encabezado .encabezado__logo {
+    .encabezado .encabezado__logo {
         display: none;
         
 
@@ -267,12 +286,12 @@
     
     
     
-    #intro .intro__titulo {
+    .intro .intro__titulo {
         font-size: 30px;
         margin-top: 50px;
     }
 
-    #ultraboost .ultraboost__titulo {
+    .ultraboost .ultraboost__titulo {
         font-size: 30px;
         margin-top: 20px;
         margin-left: 20px;
@@ -281,66 +300,66 @@
         font-family: 'Oswald', sans-serif;
         
     }
-    #ultraboost .ultraboost__imagenYTexto img {
+    .ultraboost .ultraboost__imagenYTexto img {
     
         height:100px;
         width: 100px;
     }
-    #ultraboost .ultraboost__imagenYTexto {
+    .ultraboost .ultraboost__imagenYTexto {
 
         display: flex;
         margin-top:30px;
         justify-content:center;
         margin-right: 100px;
     }
-    #ultraboost .ultraboost__imagenYTexto--desktop {
+    .ultraboost .ultraboost__imagenYTexto--desktop {
         display: none;
         
     }
-    #ultraboost .ultraboost__imagenYTexto p {
+    .ultraboost .ultraboost__imagenYTexto p {
         font-size:25px;
         margin-top: 10px;
         
         
     
     }
-    #otrosModelos .otrosModelos__fotos {
+    .otrosModelos .otrosModelos__fotos {
         display: grid;
         grid-template-columns: 200px;
         grid-template-rows: repeat(4,200px);         
         justify-content: start;
                 
     }
-    #otrosModelos .otrosModelos__fotos--basquet p {
+    .otrosModelos .otrosModelos__fotos--basquet p {
         display: none;
         
     }
-    #otrosModelos .otrosModelos__fotos--botines p {
+    .otrosModelos .otrosModelos__fotos--botines p {
         display: none;
     }
-    #otrosModelos .otrosModelos__fotos--treking p {
+    .otrosModelos .otrosModelos__fotos--treking p {
         display: none;
     }
-    #otrosModelos .otrosModelos__fotos--ojotas p {
+    .otrosModelos .otrosModelos__fotos--ojotas p {
         display: none;
     }
-    #otrosModelos {
+    .otrosModelos {
         overflow: hidden;
         
     }
  
     
-    #ultraboost {
+    .ultraboost {
         overflow: hidden;
     }
-    #intro {
+    .intro {
         overflow: hidden;
     }
-    #encabezado {
+    .encabezado {
         overflow: hidden;
     }
 
-    #tarjetas .tarjetas {
+    .tarjetas .tarjetas {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -354,7 +373,7 @@
 
 
 @media (min-width:600px) {
-    #ultraboost .ultraboost__imagenYTexto--mobile {
+    .ultraboost .ultraboost__imagenYTexto--mobile {
         display:none;
     }
 }
@@ -1183,6 +1202,7 @@
     grid-column-gap: 230px;
     grid-row-gap: 200px;
     transition: 1s;
+    margin-bottom: 300px;
 }
 
 
@@ -1192,12 +1212,9 @@
     font-size: 25px;
     font-family: 'Dosis', sans-serif;
     font-family: 'Lobster', cursive;
-    font-family: 'Oswald', sans-serif;
-    
+    font-family: 'Oswald', sans-serif;   
     align-items: center;
-    
-    
-    
+       
 }
 .otrasTiendas__center {
     background-color: black;
