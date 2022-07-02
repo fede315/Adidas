@@ -1,0 +1,27 @@
+/*variables*/
+
+$colorFondoSubtitulos:black;
+$colorSubtitulos:white;
+$colorTitulos:black;
+$colorSecundario:rgb(212, 92, 12);
+$margenSubtitulos: 30px;
+$fuentePrincipal: 'Oswald';
+$tamanoFuenteTitulos:45px;
+$tamanoFuenteSubtitulos:40;
+$gradientesSubtitulos:linear-gradient(to right, black 70%,white );
+$marginSubtitulos:30px;
+.intro {
+    & &__titulo {
+        font-family: $fuentePrincipal ; 
+        font-size: $tamanoFuenteTitulos;    
+        background: $gradientesSubtitulos;
+        color:$colorSubtitulos;
+        background-color: $colorFondoSubtitulos;
+    }
+        & &__titulo h1 {
+        margin: $marginSubtitulos;            
+            
+    }
+
+    
+}

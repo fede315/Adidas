@@ -72,30 +72,14 @@
 
 
 
-.intro .intro__titulo {
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Lobster', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-    
-    background-color: black;
-    color: white;
 
-
-}
-.intro .intro__titulo h1{
-    margin-left: 30px;
-    margin-bottom: 100px;
-    background: linear-gradient(to right, black 70%,white );
-}
 .intro .intro__imagenes {
     display: flex;
     
 }
 .ultraboost .ultraboost__titulo--color {
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Lobster', cursive;
-    font-family: 'Oswald', sans-serif;
+    
+    font-family: 'Oswald';
     font-size: 45px;
     margin-top: 100px;
     background-color: black;

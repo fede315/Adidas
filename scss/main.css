@@ -1,0 +1,11 @@
+/*variables*/
+.intro .intro__titulo {
+  font-family: "Oswald";
+  font-size: 45px;
+  background: linear-gradient(to right, black 70%, white);
+  color: white;
+  background-color: black;
+}
+.intro .intro__titulo h1 {
+  margin: 30px;
+}/*# sourceMappingURL=main.css.map */
