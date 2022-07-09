@@ -1,78 +1,80 @@
 .encabezado {
     display: flex;
-    
-    
-   
 }
-
-
-
-
-
 .encabezado .encabezado__menu ul {
     list-style: none;
     display: flex;
-    
+    justify-content: center;
     margin-top: 20px;
     margin-left: 20px;
-    
-   
-}
-.encabezado .encabezado__menu ul li a {
     flex-grow: 1;
     flex-shrink: 1;
+   
 }
 .encabezado .encabezado__menu {
     width: 100%;
     
 }
-
 .encabezado .encabezado__menu ul li a {
     text-decoration: none;
-    margin: 70px;
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Lobster', cursive;
-    font-family: 'Oswald', sans-serif;
+    font-family: Oswald; 
     font-size: 25px;
     color:black;
     transition: background-color 0.5s, color 0.5s;
-    
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin:auto;
+    margin-right:25px;
+    margin-left: 25px;
+    padding: 10px;
 }
 .encabezado .encabezado__menu ul li a:hover {
     background-color: black;
     color: white;
-    
-    
 }
-
-
 .encabezado .encabezado__logo {
     width: 70px; 
     height: 70px;
-    margin-left: 100px;
+    position: relative;
+    margin-left: 50px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin-top: 15px;
 }
 .encabezado .encabezado__buscador--size {
+    
+    position: relative;
     margin-top: 20px;
-    margin-left: 200px;
+    align-self: center;
     height: 30px;
     font-family: 'Dosis', sans-serif;
     font-family: 'Lobster', cursive;
     font-family: 'Oswald', sans-serif;
+    
 
 }
 .encabezado .encabezado__boton input {
     height: 30px;
     width: 30px;
-    margin-top: 20px;
+    align-self: center;
+    position: relative;
     margin-left: 5px; 
+    margin-top: 20px;
+}
+.intro .intro__titulo {
+ 
+    font-size: 25px;   
+    background-color: black;
+    color: white;
+    background: linear-gradient(to right, black 70%,white );    
+    margin-bottom: 100px;
+    font-family: 'Oswald';
     
 }
-
-
-
-
-
-
+.intro .intro__titulo h1{
+    margin-left: 30px;
+    
+}
 .intro .intro__imagenes {
     display: flex;
     
